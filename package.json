@@ -1,0 +1,28 @@
+{
+  "name": "ts-node-jasmine-example",
+  "version": "1.0.0",
+  "description": "example project demonstrating running jasmine tests of a typescript-based project in watch mode",
+  "main": "target/index.js",
+  "scripts": {
+    "test": "nodemon --ext ts --exec 'jasmine-ts  --config=./spec/support/jasmine.json'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erosb/ts-node-jasmine-example.git"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "jasmine",
+    "watch",
+    "nodemon",
+    "test",
+    "unittest"
+  ],
+  "author": "Bence Eros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erosb/ts-node-jasmine-example/issues"
+  },
+  "homepage": "https://github.com/erosb/ts-node-jasmine-example#readme"
+}
